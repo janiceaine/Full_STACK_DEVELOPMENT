@@ -1,1 +1,0 @@
-# Full_STACK_DEVELOPMENT
