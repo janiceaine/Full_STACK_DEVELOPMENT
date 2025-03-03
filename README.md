@@ -8,17 +8,17 @@ Travlr is a full-stack web application designed to provide a seamless travel exp
 
 Travlr was developed using a combination of frontend and backend technologies:
 
-Frontend: Implemented using Express HTML, JavaScript, and a Single-Page Application (SPA) approach.
+- Frontend: Implemented using Express HTML, JavaScript, and a Single-Page Application (SPA) approach.
 
-Backend: Built with Node.js and Express, utilizing a NoSQL MongoDB database for data management.
+- Backend: Built with Node.js and Express, utilizing a NoSQL MongoDB database for data management.
 
-Security: Integrated authentication for the admin panel to ensure secure login functionality.
+- Security: Integrated authentication for the admin panel to ensure secure login functionality.
 
 ### Comparison of Frontend Approaches:
 
-Express HTML & JavaScript: Provided a structured approach for rendering static and dynamic content.
+- Express HTML & JavaScript: Provided a structured approach for rendering static and dynamic content.
 
-SPA: Enabled a smooth, seamless user experience by reducing page reloads and improving performance.
+- SPA: Enabled a smooth, seamless user experience by reducing page reloads and improving performance.
 
 Why MongoDB?
 The backend used MongoDB because of its flexibility, scalability, and efficient handling of unstructured travel-related data, making it well-suited for handling bookings and user profiles.
@@ -27,19 +27,19 @@ The backend used MongoDB because of its flexibility, scalability, and efficient 
 
 Customer Features:
 
-Browse and search for available travel destinations.
+- Browse and search for available travel destinations.
 
-Book trips with a simple, intuitive interface.
+- Book trips with a simple, intuitive interface.
 
-View booking history and trip details.
+- View booking history and trip details.
 
 Admin Features:
 
-Secure login authentication to manage travel packages.
+- Secure login authentication to manage travel packages.
 
-Add, update, and delete travel destinations.
+- Add, update, and delete travel destinations.
 
-Monitor and manage customer bookings.
+- Monitor and manage customer bookings.
 
 JSON Integration:
 JSON acts as the bridge between the frontend and backend, ensuring smooth data exchange. Unlike JavaScript, JSON is a lightweight data format used primarily for data storage and transmission.
@@ -47,21 +47,21 @@ JSON acts as the bridge between the frontend and backend, ensuring smooth data e
 Code Refactoring:
 During development, code was refactored to improve functionality and efficiency:
 
-Modularized UI Components: Enabled reusability and improved maintainability.
+- Modularized UI Components: Enabled reusability and improved maintainability.
 
-Optimized Database Queries: Enhanced data retrieval speed.
+- Optimized Database Queries: Enhanced data retrieval speed.
 
-Refactored API Endpoints: Ensured consistency and better error handling.
+- Refactored API Endpoints: Ensured consistency and better error handling.
 
 ### Testing
 
 To ensure the application's reliability and security, multiple testing strategies were employed:
 
-Unit Testing: Verified individual components and API functions.
+- Unit Testing: Verified individual components and API functions.
 
-Integration Testing: Ensured seamless interaction between frontend and backend.
+- Integration Testing: Ensured seamless interaction between frontend and backend.
 
-Security Testing: Validated authentication and protected sensitive admin data.
+- Security Testing: Validated authentication and protected sensitive admin data.
 
 Understanding API endpoints and security measures was crucial for implementing robust authentication and safeguarding data access.
 
@@ -69,19 +69,19 @@ Understanding API endpoints and security measures was crucial for implementing r
 
 This project has significantly contributed to my professional growth by reinforcing my full-stack development skills. Key takeaways include:
 
-Improved Frontend & Backend Integration: Strengthened my ability to create dynamic, data-driven applications.
+- Improved Frontend & Backend Integration: Strengthened my ability to create dynamic, data-driven applications.
 
-Enhanced Security Awareness: Developed a deeper understanding of authentication and data protection.
+- Enhanced Security Awareness: Developed a deeper understanding of authentication and data protection.
 
-Scalable Development Practices: Learned best practices in designing modular and maintainable code.
+- Scalable Development Practices: Learned best practices in designing modular and maintainable code.
 
 ### Future Enhancements
 
-Implement role-based authentication for different levels of admin access.
+- Implement role-based authentication for different levels of admin access.
 
-Improve UI/UX with a more interactive and visually appealing design.
+- Improve UI/UX with a more interactive and visually appealing design.
 
-Expand functionality to include user-generated travel reviews and ratings.
+- Expand functionality to include user-generated travel reviews and ratings.
 
 ### Course Information
 
