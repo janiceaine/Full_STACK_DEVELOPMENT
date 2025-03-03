@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand navbar-light bg-light">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#" title="Home">
+        <img src="/assets/images/logo.png" alt="Company Logo">
+    </a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" routerLink="listtrips" title="View Trips">
+                Trips<span class="sr-only">(current)</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Authentication Links -->
+    <div class="navbar-end">
+        <a class="navbar-item" 
+           routerLink="login" 
+           *ngIf="!isLoggedIn()" 
+           title="Log In">
+            <span class="has-icon-left">Log In</span>
+        </a>
+        <a class="navbar-item" 
+           (click)="onLogout()" 
+           *ngIf="isLoggedIn()" 
+           title="Log Out">
+            <span class="has-icon-left">Log Out</span>
+        </a>
+    </div>
+</nav>
